@@ -145,7 +145,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       # Define the board with values that should create the desired output
       # *** Edit the line below ***
-      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"] 
+      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
@@ -182,9 +182,9 @@ describe "#display_board in 'lib/display_board.rb" do
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
       # example's situation.
-      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] 
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
-    
+
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
 
